@@ -1,0 +1,28 @@
+header {
+    background-color: gold;
+    display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+main{
+    display: flex; 
+    gap: 1rem;
+    text-align: center;
+}
+
+h2 {
+    background-color: blue;
+}
+
+h3 {
+    background-color: red;
+}
+
+h4 {
+    background-color: green;
+}
+
+Footer{
+    background-color: gold;
+}

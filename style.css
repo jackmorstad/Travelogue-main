@@ -1,3 +1,10 @@
+body{
+    background-color: hotpink;
+}
+
+
+
+
 header {
     background-color: gold;
     display: flex;
@@ -8,20 +15,32 @@ header {
 main{
     display: flex; 
     gap: 1rem;
-    text-align: center;
+    text-align: center; 
+    justify-content: space-between; /* Spaces them evenly */
+    align-items: center; /* Aligns them vertically */
+    gap: 0px; /* Adds space between headers */
 }
 
 h2 {
     background-color: blue;
+    font-size: 30px;
 }
 
 h3 {
     background-color: red;
+    font-size: 30px;
 }
 
 h4 {
     background-color: green;
+    text-align: center;
+    font-size: 30px;
 }
+
+#victoria{
+    text-align: center;
+}
+
 
 Footer{
     background-color: gold;
